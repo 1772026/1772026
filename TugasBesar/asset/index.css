@@ -296,7 +296,7 @@ img.icon:hover{
 
 .gambar img{
   max-width: 420px;
-  height: 100%;
+  height: 400px;
   object-fit:cover;
 }
 li {
