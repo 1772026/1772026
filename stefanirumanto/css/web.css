@@ -1,0 +1,137 @@
+.carousel{
+  max-width:80%;
+  margin-right: auto;
+  margin-left: auto;  
+  padding-top: 100px;
+  /*margin-top: 10px;*/
+  /*max-height: 100px ;*/
+}
+
+.carousel1{
+  max-width:140px;
+  margin-right: auto;
+  margin-left: auto;  
+  padding-top: 100px;
+  /*margin-top: 10px;*/
+  /*max-height: 100px ;*/
+}
+#navbar {
+  z-index: 1000;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display:block;
+  transition: top 0.3s;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.aktif{
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+.welcome i{
+  font-size: 50px;
+}
+.bawah{
+    margin-top: 200px;
+    position: absolute;
+    color: blue;
+}
+.landing{
+  width: 100%;
+  /*height: 500px;*/
+}
+.landing img{
+  width: 100%;
+  max-height: 600px;
+}
+.isi{
+  width: 100%;
+  background-image: url("../back/BackkgroundHome-01.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.back img{
+  width: 100%;
+  height: 1000px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../paralax/ParallaxWeb2.png");
+
+  /* Set a specific height */
+  min-height: 600px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.parallax1 {
+  /* The image used */
+  background-image: url("../paralax/ParallaxWeb1.jpg");
+
+  /* Set a specific height */
+  min-height: 200px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.row {
+    margin: 8px -16px;
+   
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 400px;
+    margin-left: 40px;
+
+}
+.content img{
+  border-radius: 20px;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
