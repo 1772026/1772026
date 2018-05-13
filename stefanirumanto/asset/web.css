@@ -1,0 +1,161 @@
+@font-face {
+                font-family: "test";
+                src: url("../bahan/Fonts/Gloss_And_Bloom.ttf");
+            }
+
+
+.headerx{
+	background-image: url("../bahan/watercoloreffect/header.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	z-index: -1;
+	height: 300px;
+}
+.judul{
+	text-align: center;
+	color: #6659C5;
+	font-family: "test";
+	font-size: 130px;
+}
+.isix{
+	top: 100px;
+	position: absolute;
+	margin-right: auto;
+	margin-left:auto;
+	height: 400px;
+	width: 100%;
+}
+
+.isix p{
+	text-align: center;
+}
+.isix p i{
+	color: #6659C5;
+	font-size: 100px;
+	text-align: center;
+}
+.footerx{
+	z-index: -1;
+	width: 100%;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-image: url("../bahan/watercoloreffect/footer.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	transform: rotate(180deg);
+	background-position: center;
+}
+
+.carousel{
+	margin-top: -100px !important;
+	max-width: 900px;
+	height: 440px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+body{
+	overflow-x:hidden;
+}
+.carousel-indicators{
+
+	bottom: 0px !important;
+}
+.carousel-indicators li{
+	border: 1px solid black !important;
+}
+
+.active{
+	background-color:#6659C5 !important; 
+}
+
+.spek{
+	width: 700px;
+	max-height: 100%;
+	margin-right: auto;
+	position: relative;
+	margin-left: auto;
+}
+.backkanan, .backkiri{
+
+	position: absolute;
+	top: -150px;
+	z-index: -1;
+}
+.backkanan{
+	right:-300px;
+	transform:rotate(270deg);
+}
+.backkiri{
+	right:400px;
+}
+
+.spek img{
+	width: 100%;
+}
+.nx, .pv{
+	cursor: pointer;
+	top: 40%;
+	vertical-align: middle;
+ 	position: absolute;
+ 	width: auto;
+ 	font-size: 100px;
+}
+ .nx{
+ 	right: 0;
+ }
+ .pv{
+ 	left: 0;
+ }
+
+.parallax {
+    /* The image used */
+    background:url("../bahan/BAHAN/ParallaxWeb1.jpg") center no-repeat;
+
+    /* Set a specific height */
+    min-height: 200px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.parallax1 {
+    /* The image used */
+    background:url("../bahan/BAHAN/ParallaxWeb2.png") center no-repeat;
+
+    /* Set a specific height */
+    min-height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header {
+  overflow: hidden;
+  background-color: transparent;
+  position: absolute;
+}
+
+header a {
+  float: left;
+  display: block;
+  color: #112447;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        display: none;
+    }
+}
