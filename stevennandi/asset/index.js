@@ -18,8 +18,6 @@ $(document).ready(function() {
       setTimeout(showSlides, 2000); // Change image every 2 seconds
   }
   // END Crousel
-  var $menu = $(".sidebar");
-  var $menu_a = $("a", $menu);
   var hash = function(h) {
     if (history.pushState) {
       history.pushState(null, null, h);
@@ -28,7 +26,7 @@ $(document).ready(function() {
     }
   };
 
-  $menu_a.hover(function(event) {
+  $('a.but').hover(function(event) {
     event.preventDefault();
     $("html, body").animate(
       {

@@ -12,13 +12,6 @@ $('.pv').click(function(){
 
  var $menu = $(".arrow");
   var $menu_a = $("a", $menu);
-  var hash = function(h) {
-    if (history.pushState) {
-      history.pushState(null, null, h);
-    } else {
-      location.hash = h;
-    }
-  };
 
   $menu_a.click(function(event) {
     event.preventDefault();
@@ -28,7 +21,26 @@ $('.pv').click(function(){
       },
       {
         duration: 1000,
-        complete: hash($(this).attr("href"))
+      }
+    );
+  });
+
+    $(window).scroll(function() {
+      if ($(window).scrollTop() > 500) {
+          $('#myBtn').show();
+      } else {
+          $('#myBtn').hide();
+      }
+  });
+
+$('#myBtn').click(function(event) {
+    event.preventDefault();
+    $("html, body").animate(
+      {
+          scrollTop:0.
+      },
+      {
+        duration: 1500,
       }
     );
   });
