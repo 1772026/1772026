@@ -26,6 +26,7 @@
 	margin-left:auto;
 	height: 400px;
 	width: 100%;
+	z-index:100;
 }
 
 .isix p{
