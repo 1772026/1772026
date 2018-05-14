@@ -2,7 +2,9 @@
                 font-family: "test";
                 src: url("../bahan/Fonts/Gloss_And_Bloom.ttf");
             }
-
+.service{width:1000px;margin-left:auto;margin-right:auto; }
+.people{transform:rotate(180deg);margin-left:auto;margin-right:auto;width:1000px;}
+footer{position:absolute;color:white;background-color:#6659C5;z-index:-1;width:100%;height:60px;font-size:20px;padding:15px 0px 15px 100px;}
 
 .headerx{
 	background-image: url("../bahan/watercoloreffect/header.jpg");
@@ -138,6 +140,7 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 
 header {
   overflow: hidden;
