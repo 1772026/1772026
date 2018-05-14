@@ -1,11 +1,11 @@
 var x=2;
 $('.nx').click(function(){
-  if(x!=3)x++;
+  if(x!=1)x--;
   else x=3;
   $('#gambarku').attr("src",'bahan/Button/'+x+'.png');
 });
 $('.pv').click(function(){
-  if(x!=1)x--;
+  if(x!=3)x++;
   else x=1;
   $('#gambarku').attr("src",'bahan/Button/'+x+'.png');
 });
