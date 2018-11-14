@@ -1,4 +1,4 @@
-# tugas.github.io
+# WELLCOME :D
 [Tugas Besar Pemrograman WEB 1](http://stevenharnandy.me/stevennandi/index.html)
 
 [Tugas Stefani](http://stevenharnandy.me/stefanirumanto/index.html)
